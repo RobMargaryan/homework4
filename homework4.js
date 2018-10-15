@@ -46,20 +46,21 @@ const a=function(b,c){
 
 
 // Problem 3
- function forEach (a, b) {
- a1 = 0;
- while(a1 < a.length) {
-    b(a[a1]);
- 	a1++;
- }
- }
- 
- 
- forEach([4, 3, 2], function(val) {
+function Multitosingle(dadaamm , duduumm) {
+	let alaaahh = 0;
+	let bochka = [];
+	while(alaaahh < dadaamm.length) {
+         bochka[bochka.length] = dadaamm[alaaahh];
+		alaaahh = alaaahh + 1;}
+	let begemnerr = 0;
+	while(begemnerr < duduumm.length) {
+		bochka[bochka.length] = duduumm[begemnerr];
+		begemnerr = begemnerr+ 1;}
+	console.log(bochka);
+	return bochka;
+}
+Multitosingle ([2, 22, 543],[ 345, 25, 44]);
 
-  console.log(val);
-
-});
 
 // Problem 4
 function minInArr(array){
@@ -86,16 +87,21 @@ console.log(findMinMax([-5, 10, 11, -50], true);
 
 
 //Problem 5
-const forEach = function (array){
-	let w = 0 ;
-	let s = "";
-	while (w<array.length){
-		s = array[length-1]
-		w = w + 1;
-		return (s);
-	}
-};	
-console.log(forEach([2,4,5,6,10]))
+ function forEach (alls, bko) {
+ aee = 0;
+ while(aee < alls.length) {
+    bko(alls[aee]);
+ 	aee = aee + 1;
+ }
+ }
+ 
+ 
+ forEach([4, 3, 2], function(val) {
+
+  console.log(val);
+
+});
+
 
 
 //Problem 6
